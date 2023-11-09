@@ -1,10 +1,10 @@
 <?php
 
-$nama = $_POST['nama'];
-$nim = $_POST['nim'];
-$prodi = $_POST['prodi'];
-$no_hp = $_POST['no_hp'];
-$kota = $_POST['kota'];
+$nama = $_POST['nama'] ?? NULL;
+$nim = $_POST['nim'] ?? NULL;
+$prodi = $_POST['prodi'] ?? NULL;
+$no_hp = $_POST['no_hp'] ?? NULL;
+$kota = $_POST['kota'] ?? NULL;
 
 ?>
 <!DOCTYPE html>
