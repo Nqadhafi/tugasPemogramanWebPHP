@@ -16,7 +16,8 @@ $kota = $_POST['kota'] ?? NULL;
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container flex-col">
+        <h1 class="center margin">Data Diri Anda</h1>
         <div class="content flex-col">
         <section class="flex-row">
         <h3 class="title">Nama</h3>
@@ -42,7 +43,11 @@ $kota = $_POST['kota'] ?? NULL;
         <h3 class="title">Asal Kota</h3>
         <h3>: <?php echo $kota;?></h3>
         </section>
+        <hr>
         </div>
+        <a href="./" class="center padding">
+        <button class=""><< Back</button>
+        </a>
     </div>
 </body>
 </html>

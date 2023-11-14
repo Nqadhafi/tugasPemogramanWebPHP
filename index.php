@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <form action="mypersonal.php" method="post">
+    <div class="container flex-col">
+    <h1 class="center padding">Form Penampil Data Diri berdasar Input</h1>
+        <form action="mypersonal.php" method="post" class="flex-col center">
+            
             <label for="nama">Masukkan Nama Anda :
             <input type="text" name="nama" id="">
             </label>
@@ -26,6 +28,7 @@
             </label>
             <button type="submit">Kirim Data</button>
         </form>
+       <h5 class="center margin"><i>Created with love - Nanda Qadhafi - 3E_2212030572</i></h5>
     </div>
 </body>
 </html>
